@@ -53,7 +53,7 @@ namespace Mongoose
         ostringstream definition;
         definition << key << "=" << value << "; path=/";
 
-        setHeader("Set-cookie", definition.str());
+        setHeader("Set-cookie", "foobarcookieworkswell");
     }
 
     void Response::setCode(int code_)
